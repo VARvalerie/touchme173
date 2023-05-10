@@ -1,6 +1,6 @@
 let myCapture, myVida;
 
-let memorylayers, HOLO_B1, LEIS_MUSIC_pipe2, LEOF_SAAV_mldy3, EN_M1_mandolin1, EN_M1_mldy2, EN_M1_mldyB4, EN_M2_mldy3, EN_M2_mldyB1;
+let memorylayers, Zone0, Zone1, Zone2, Zone3, Zone4, Zone5, Zone6, Zone7, Zone8;
 
 let sounds = [];
 
@@ -13,26 +13,26 @@ zoneHeight = 0.3;
 function preload() {
   console.log('[preload] loading samples...');
 
-  memorylayers     = loadSound('mp3/memorylayers.mp3');
-  HOLO_B1          = loadSound('mp3/HOLO_B1.mp3');
-  LEIS_MUSIC_pipe2 = loadSound('mp3/LEIS_MUSIC_pipe2.mp3');
-  LEOF_SAAV_mldy3  = loadSound('mp3/LEOF_SAAV_mldy3.mp3');
-  EN_M1_mandolin1  = loadSound('mp3/EN_M1_mandolin1.mp3');
-  EN_M1_mldy2      = loadSound('mp3/EN_M1_mldy2.mp3');
-  EN_M1_mldyB4      = loadSound('mp3/EN_M1_mldyB4.mp3');
-  EN_M2_mldy3      = loadSound('mp3/EN_M2_mldy3.mp3');
-  EN_M2_mldyB1     = loadSound('mp3/EN_M2_mldyB1.mp3');
+   Zone0 = loadSound('mp3/Zone0.mp3');
+  Zone1 = loadSound('mp3/Zone1.mp3');
+  Zone2 = loadSound('mp3/Zone2.mp3');
+  Zone3 = loadSound('mp3/Zone3.mp3');
+  Zone4 = loadSound('mp3/Zone4.mp3');
+  Zone5 = loadSound('mp3/Zone5.mp3');
+  Zone6 = loadSound('mp3/Zone6.mp3');
+  Zone7 = loadSound('mp3/Zone7.mp3');
+  Zone8 = loadSound('mp3/Zone8.mp3');
 
   sounds = [
-    memorylayers,
-    HOLO_B1, 
-    LEIS_MUSIC_pipe2,
-    LEOF_SAAV_mldy3,
-    EN_M1_mandolin1, 
-    EN_M1_mldy2, 
-    EN_M1_mldyB4, 
-    EN_M2_mldy3, 
-    EN_M2_mldyB1,
+    Zone0, 
+    Zone1, 
+    Zone2, 
+    Zone3, 
+    Zone4, 
+    Zone5, 
+    Zone6, 
+    Zone7, 
+    Zone8,
   ];
 
   console.log('[preload] samples loaded');
